@@ -56,3 +56,4 @@ netmask is: 255.255.255.0
 and preset IP addr is always .200 (ex. 192.168.0.200)
 
 enjoy !
+.
