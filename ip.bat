@@ -44,9 +44,9 @@ netsh interface ip set address "Ethernet" static %IP_Addr% 255.255.255.0 %D_Gate
 goto bye
 
 :autosearch
-ECHO obtaining auto IP
-ipconfig /renew "Ethernet"
-goto end
+ECHO przelaczam karte w tryb DHCP
+netsh interface ip set address "Ethernet" dhcp
+goto bye
 
 :bye
 ECHO OK
