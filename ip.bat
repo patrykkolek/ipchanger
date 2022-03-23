@@ -23,13 +23,13 @@ ECHO.
 goto start
 :con1
 ECHO Zmieniam ustawienia karty sieciowej na pule "192.168.0.XXX"
-netsh interface ip set address "Ethernet" static 192.168.0.200 255.255.255.0 192.168.0.1 1
+netsh interface ip set address "Ethernet" static 192.168.0.254 255.255.255.0 192.168.0.1 1
 goto bye
 
 :con2
 ECHO Zmieniam ustawienia karty sieciowej na pule "192.168.1.XXX"
 
-netsh interface ip set address "Ethernet" static 192.168.1.200 255.255.255.0 192.168.1.1 1
+netsh interface ip set address "Ethernet" static 192.168.1.254 255.255.255.0 192.168.1.1 1
 goto bye
 
 :con3
