@@ -14,7 +14,7 @@ dodatkowo mamy opcje przełaczenia karty na "DHCP"
 oraz wklepania swoich wartosic recznie.
 
 WAŻNE :
-w presetach nasz adres bedzie wynosil zawsze 200 (ex. 192.168.0.200)
+w presetach nasz adres bedzie wynosil zawsze 200 (ex. 192.168.0.254)
 maska jest ustawiona na 255.255.255.0 -gdyby byla potrzeba mozna dokleic jedna linijke kodu zeby wpisywac to recznie (dla mnie to zbedne)
 
 
@@ -28,7 +28,7 @@ and
 and of course you can set your values manually or return to DHCP 
 
 netmask is: 255.255.255.0
-and preset IP addr is always .200 (ex. 192.168.0.200)
+and preset IP addr is always .254 (ex. 192.168.0.254)
 
 enjoy !
 .
